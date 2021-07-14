@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&family=Roboto:wght@300&display=swap');
+/* background-color: rgb(224, 224, 224); */
+/* color: rgb(153, 152, 152); */
+/* css variables */
+:root{
+    --primaryColor: #3fd0d4;
+    --mainWhite : #fff;
+    --offWhite: #f7f7f7;
+    --mainBlack : #222;
+    --mainGrey : #ececec;
+    --drakGrey : #afafaf;
+    --mainTransition : all 0.3s linear;
+    --mainSpacing :0.2rem;
+    --lightShadow: 2px 5px 3px  0 rgba(0,0,0,0.25);
+    --DarkShadow: 4px 10px 6px  0 rgba(0,0,0,0.5);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    /* background: radial-gradient(circle, rgba(225,225,225,1) 0%, rgba(70,152,76,1) 90%); */
+    background-color: var(--primaryColor);
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+section{
+    position: relative;
+    background-color: hsl(0, 0%, 88%);
+    border-radius: 2rem;
+    margin: 0 20rem;
+}
+
+.heading{
+    padding-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+.heading-text{
+    font-family: 'Mulish', sans-serif;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    letter-spacing: 0.1rem;
+}
+.sub-heading{
+    margin-bottom: 2rem;
+}
+.sub-heading-text{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(153, 152, 152);
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+.name{
+    display: flex;
+    /* padding: 0 2rem; */
+    justify-content: space-;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+.input-area{
+    width:250px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    text-align: left;
+    color:rgb(153, 152, 152);
+    font-size: 1rem;
+    border: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    opacity: 1;
+}
+.input-area::placeholder{
+    font-weight: bold;
+    opacity: 0.6;
+    text-align: center
+}
+.name-label{
+    
+    margin:0 2rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.name-label-1{
+    margin-left: 1.5rem;
+}
+.first-name-input{
+    margin-right: 0.5rem;
+    margin-left: 2.40rem;
+}
+.name-label-email{
+    margin-left: 0;
+    margin-left: 1.3rem;
+}
+.contact-number{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.contact-number-label{
+    margin-left: 0;
+    margin-left: 1.25rem;
+}
+.contactinput-area{
+    margin-left: 0.85rem;
+}
+.email{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.fa-user{
+    margin-left: 1.5rem;
+}
+.fa-envelope{
+    margin-left:1.45rem;
+    /* margin-right: 0.3rem; */
+}
+.email-input-area{
+    margin-left: 2.6rem;
+}
+.fa-phone-square-alt{
+    margin-left:1.5rem;
+    margin-right: 0.3rem;
+}
+.address{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.address-label{
+    margin-left: 0;
+    margin-left: 1.45rem;
+}
+.address-input-area{
+    margin-left: 0.8rem;
+}
+.fa-map-marker-alt{
+    margin-left:1.6rem;
+    margin-right: 0.3rem;
+}
+.preference-menu{
+    display: flex;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+.preference-menu-list{
+    margin-left: 0px;
+    margin-left: 1.45rem;
+}
+.preference-menu-list-optn{
+    margin-left: -0.9rem;
+}
+.fa-clipboard-list{
+    margin-left:1.6rem;
+    margin-right: 0.3rem;
+}
+.fa-calculator{
+    margin-left:1.5rem;
+    margin-right: 0.3rem;
+}
+.quantity{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.quantity-label{
+    margin-left: 0;
+    margin-left: 1.05rem;
+}
+.suggestion-heading{
+    margin-bottom: 0.5rem;
+}
+.text-center{
+    font-weight: bold;
+}
+button{
+    font-family: 'Mulish', sans-serif;
+    /* background: radial-gradient(circle, rgba(225,225,225,1) 0%, rgba(70,152,76,1) 90%); */
+    background-color: var(--primaryColor);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    margin: 1rem 0;
+    width: 50%;
+    font-weight: bold;
+
+}

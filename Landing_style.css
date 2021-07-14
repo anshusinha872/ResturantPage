@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;400;500;600&display=swap');
+*{
+    /* all default setting are reseted */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* Css variables */
+    --dottedtext:'Big Shoulders Stencil Display', cursive;
+    --maintext:'Roboto', sans-serif;
+    --slantedtext:'Grand Hotel',cursive;
+    --primarycolor:#2dafc0;
+    --secondarycolor:#fca311;
+    --mainblack:#3a3e3b;
+    --maingrey:#bbb8b8;
+    --mainwhite:white;
+    --maintrasition: all 0.3s ease-in-out;
+    --letterspacing:0.5rem;
+}
+body{
+    font-family: 'Catamaran',sans-serif;
+    line-height: 1.5;
+}
+/* utility classes */
+a{
+    text-decoration: none;
+}
+.text-white{
+    color: var(--mainwhite);
+}
+.text-center{
+    text-align: center;
+}
+.text-primary{
+    color: var(--primarycolor);
+}
+/* globals */
+/* navbar */
+/* header */
+.header{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)) , url('./Img/Banner-img-1.jpg') center/cover no-repeat fixed;
+    position: relative;
+}
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    letter-spacing: var(--letterspacing);
+}
+.banner-subtitle{
+    font-size: 3rem;
+    min-width: 100vw;
+    font-family: var(--maintext);
+    color: var(--primarycolor);
+    /* color: aquamarine; */
+    text-transform: capitalize;
+    /* animation */
+    animation: slidefromtop 5s ease-in-out 1;
+}
+.banner-title{
+    text-transform: uppercase;
+    min-width: 100vw;
+    font-size: 4rem;
+    font-family: var(--dottedtext);
+    color: var(--mainwhite);
+    margin-top: 1rem;
+    /* line-height: 1.3rem; */
+    /* animation: ; */
+    animation: slidefromRight 5s ease-in-out 1;
+}
+.main-btn,.banner-btn{
+    display: inline-block;
+    background: var(--primarycolor);
+    text-transform: uppercase;
+    padding: 0.8rem 1.2rem;
+    color: var(--mainblack);
+    font-weight: bold;
+    outline: 0.2rem solid var(--primarycolor);
+    outline-offset: 4px;
+    cursor: pointer;
+    transition: var(--maintrasition);
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.main-btn:hover,.banner-btn:hover{
+    color: var(--mainwhite);
+    background-color: var(--maingrey);
+    font-size: 1.8rem;
+    outline: 0.2rem solid var(--maingrey);
+}
+.banner-btn{
+    padding: 1.2rem 1.5rem;
+    /* animation */
+    animation: show 2s ease-in-out 1 ;
+}
+/* end of header */
+/* animation */
+/* animation for Banner-btn */
+@keyframes show {
+    0%{
+        transform: scale(2);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes slidefromtop {
+    0%{
+        transform: translateY(1000px)
+    }
+    50%{
+        transform: translateY(-200px)
+    }
+    70%{
+        transform: translateY(30px)
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
+@keyframes slidefromRight {
+    0%{
+        transform: translateX(1000px)
+    }
+    50%{
+        transform: translateX(-200px)
+    }
+    70%{
+        transform: translateX(50px)
+    }
+    100%{
+        transform: translateX(0px)
+    }
+}
+/* end of animation */
+/* end of landing page */
+/* start of index page */
+
+/* end  of index page */

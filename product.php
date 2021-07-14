@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+    <title>product</title>
+</head>
+<body>
+<section class="section featured " id="featured">
+        <!-- title -->
+        <div class="title-wrapper">
+            <h2 class="title">Order <span class="sub-title">Online</span></h2>
+        </div>
+        <!-- end of title -->
+        <!-- featured center -->
+        <div class="section-center featured-center">
+            <!-- single product -->
+            <article class="product-card">
+                <!-- image-container -->
+                <div class="product-img-container">
+                    <a href="order.php"><img src="./Img/product-img-1.jpg" class="product-img" alt="awesome product"></a>
+                    <p class="product-date">Indian Cuisine</p>
+                </div>
+                <!-- product-footer -->
+                <div class="product-footer">
+                    <h4 class="product-title">Samosa</h4>
+                    <!-- product info -->
+                    <div class="product-info">
+                        <p class="product-country">
+                            <span> <i class="fas fa-map"></i></span>
+                            $2
+                        </p>
+                        <div class="product-details">
+                            <p>Aalo filling</p>
+                            <p>mint chutney</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--  end of single product -->
+            <!-- single product -->
+            <article class="product-card">
+                <!-- image-container -->
+                <div class="product-img-container">
+                <a href="order.php">
+                <img src="./Img/product-img-2.jpg" class="product-img" alt="awesome product"></a>
+                    <p class="product-date">Bengali Cuisine</p>
+                </div>
+                <!-- product-footer -->
+                <div class="product-footer">
+                    <h4 class="product-title">Kathi Role</h4>
+                    <!-- product info -->
+                    <div class="product-info">
+                        <p class="product-country">
+                            <span> <i class="fas fa-map"></i></span>
+                            $10
+                        </p>
+                        <div class="product-details">
+                            <p> Chapati</p>
+                            <p>mint chutney</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--  end of single product -->
+            <!-- single product -->
+            <article class="product-card">
+                <!-- image-container -->
+                <div class="product-img-container">
+                <a href="order.php"><img src="./Img/product-img-3.jpg" class="product-img" alt="awesome product"></a>
+                    <p class="product-date">Italian Cuisine</p>
+                </div>
+                <!-- product-footer -->
+                <div class="product-footer">
+                    <h4 class="product-title">Burger</h4>
+                    <!-- product info -->
+                    <div class="product-info">
+                        <p class="product-country">
+                            <span> <i class="fas fa-map"></i></span>
+                            $9
+                        </p>
+                        <div class="product-details">
+                            <p>Veg Patty</p>
+                            <p>chips</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--  end of single product -->
+            <!-- single product -->
+            <article class="product-card">
+                <!-- image-container -->
+                <div class="product-img-container">
+                <a href="order.php"><img src="./Img/product-img-4.jpg" class="product-img" alt="awesome product"></a>
+                    
+                    <p class="product-date">Indian Cuisine</p>
+                </div>
+                <!-- product-footer -->
+                <div class="product-footer">
+                    <h4 class="product-title">Panner Lababdar</h4>
+                    <!-- product info -->
+                    <div class="product-info">
+                        <p class="product-country">
+                            <span> <i class="fas fa-map"></i></span>
+                            $20
+                        </p>
+                        <div class="product-details">
+                            <p>Panner Curry</p>
+                            <p>bread</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--  end of single product -->
+            <!-- single product -->
+            <article class="product-card">
+                <!-- image-container -->
+                <div class="product-img-container">
+                <a href="order.php"><img src="./Img/product-img-5.jpg" class="product-img" alt="awesome product"></a>
+                    
+                    <p class="product-date">Desert</p>
+                </div>
+                <!-- product-footer -->
+                <div class="product-footer">
+                    <h4 class="product-title">Black Forest cake</h4>
+                    <!-- product info -->
+                    <div class="product-info">
+                        <p class="product-country">
+                            <span> <i class="fas fa-map"></i></span>
+                            $13
+                        </p>
+                        <div class="product-details">
+                            <p>Dark</p>
+                            <p>chocolate</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--  end of single product -->
+            <!-- single product -->
+            <article class="product-card">
+                <!-- image-container -->
+                <div class="product-img-container">
+                <a href="order.php"><img src="./Img/product-img-6.jpg" class="product-img" alt="awesome product"></a>
+                    
+                    <p class="product-date">Italian Cuisine</p>
+                </div>
+                <!-- product-footer -->
+                <div class="product-footer">
+                    <h4 class="product-title">Pasta</h4>
+                    <!-- product info -->
+                    <div class="product-info">
+                        <p class="product-country">
+                            <span> <i class="fas fa-map"></i></span>
+                            $12
+                        </p>
+                        <div class="product-details">
+                            <p>Red sauce</p>
+                            <p>garlic bread</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--  end of single product -->
+            <!-- single product -->
+            <article class="product-card">
+                <!-- image-container -->
+                <div class="product-img-container">
+                <a href="order.php"><img src="./Img/product-img-6.jpg" class="product-img" alt="awesome product"></a>
+                    
+                    <p class="product-date">Italian Cuisine</p>
+                </div>
+                <!-- product-footer -->
+                <div class="product-footer">
+                    <h4 class="product-title">Pasta</h4>
+                    <!-- product info -->
+                    <div class="product-info">
+                        <p class="product-country">
+                            <span> <i class="fas fa-map"></i></span>
+                            $12
+                        </p>
+                        <div class="product-details">
+                            <p>Red sauce</p>
+                            <p>garlic bread</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--  end of single product -->
+            <!-- single product -->
+            <article class="product-card">
+                <!-- image-container -->
+                <div class="product-img-container">
+                <a href="order.php"><img src="./Img/product-img-6.jpg" class="product-img" alt="awesome product"></a>
+                    
+                    <p class="product-date">Italian Cuisine</p>
+                </div>
+                <!-- product-footer -->
+                <div class="product-footer">
+                    <h4 class="product-title">Pasta</h4>
+                    <!-- product info -->
+                    <div class="product-info">
+                        <p class="product-country">
+                            <span> <i class="fas fa-map"></i></span>
+                            $12
+                        </p>
+                        <div class="product-details">
+                            <p>Red sauce</p>
+                            <p>garlic bread</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--  end of single product -->
+        </div>
+        <!-- end of product-center -->
+        <!-- <div class="product-link">
+            <a href="product.php" target="_blank" class="btn-primary">All products</a>
+        </div> -->
+    </section>
+    <!-- end of featured product -->
+</body>
+</html>
