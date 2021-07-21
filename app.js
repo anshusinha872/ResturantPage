@@ -83,5 +83,6 @@ scrollLinks.forEach((link)=>{
             top: position,
             behavior: "smooth"
         });
+        console.log("link is clicked...."); 
     });
 });
